@@ -1,0 +1,175 @@
+/*
+Theme Name: MonPortFolio
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata&family=Red+Rose&display=swap");
+
+.nav-link{
+    color: rgb(255, 255, 255);
+}
+
+.lv-navbar{
+    padding: 0;
+    margin: 0;
+    font-family: 'Red Rose', cursive;
+    font-size: 20px;
+}
+
+.lv-navbar
+.nav-link{
+    transition: all 0.5s ease-in-out ;
+
+}
+
+
+
+.nav-link:hover{
+    
+    border-bottom: 2px solid var(--bs-cyan);
+    bottom: 10px;
+    letter-spacing: 3px;
+    color: var(--bs-cyan);
+}
+.menu{
+    text-align: end;
+}
+
+.navbar-collapse{
+    position: absolute;
+    z-index: 2;
+    top: 40px;
+    
+    
+   
+    
+    
+
+}
+.navbar-toggler{
+    justify-items: end;
+    
+
+}
+
+
+.navbar-toggler-icon{
+    display: inline-block;
+    background-color: rgb(33, 156, 178);
+}   
+
+
+
+.header--topbar{
+    background-color: rgb(0, 0, 0);
+    text-align: end;
+    
+}
+
+.header--main {
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    position: relative; 
+    background-color: rgb(0, 0, 0);
+    
+}
+.header--main:before{
+    background-image: url(../img/Header_image.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    z-index: 0;
+    opacity: .7;
+
+}
+
+
+
+
+.img-fluid{
+
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    left: 2px;
+    top: 0px;
+    
+}
+
+
+.header_text{
+
+    font-size: 40px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Red Rose', cursive;
+    position: relative;
+
+}
+.header_text span {
+
+    color: rgb(0, 255, 255);
+}
+
+.header_btn{
+
+    position: relative;
+    font-family: 'Red Rose', cursive;
+    font-size : 18px;
+    color: rgb(255, 255, 255);
+    border: solid 1px rgb(255, 255, 255);
+    text-decoration: none;
+    border: 1px solid rgb(255, 255, 255);
+    margin: auto;
+
+}
+
+.global{
+
+    background-color: rgb(0, 0, 0);
+    
+    
+}
+
+
+
+.titles_first_page{
+
+    display: flex;
+    text-align: center;
+    
+}
+
+.rounded circle{
+
+    width: 100vw;
+    height: 100vh;
+    margin-top: 30px;
+    background-image: url(../img/avatar.jpg);
+    background-repeat: no-repeat;
+    border-radius: ellipse 100%;
+    position: absolute;
+    z-index:1;
+}
+
+p{
+
+    margin-top: 40px;
+
+}
+.title_two{
+
+    margin-top: 50px;
+    font-size: 15px;
+
+}
